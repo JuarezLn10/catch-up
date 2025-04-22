@@ -3,7 +3,9 @@ import {SourceResource, SourcesResponse} from './sources.response';
 import {Source} from '../model/source.entity';
 
 export class SourceAssembler {
+
   static logoApiService: LogoApiService;
+
   static withLogoApiService(logoApiService: LogoApiService) {
     this.logoApiService = logoApiService;
     return this;
