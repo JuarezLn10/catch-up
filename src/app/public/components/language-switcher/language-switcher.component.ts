@@ -12,7 +12,7 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 })
 export class LanguageSwitcherComponent {
   currentLang = 'en';
-  languages = ['en', 'de'];
+  languages = ['en', 'es'];
 
   constructor(private translate: TranslateService) {
     this.currentLang = translate.currentLang;
