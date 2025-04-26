@@ -16,6 +16,7 @@ export class SourceAssembler {
       id: resource.id,
       name: resource.name,
       url: resource.url || '',
+      author: resource.author,
       urlToLogo: this.logoApiService.getUrlToLogo(resource)
     };
   }

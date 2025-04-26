@@ -6,6 +6,7 @@ export interface ArticleResource {
   title: string;
   description: string | null;
   url: string;
+  author: string;
   urlToImage: string | null;
   publishedAt: string;
 }

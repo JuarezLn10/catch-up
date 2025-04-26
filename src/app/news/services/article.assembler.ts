@@ -17,11 +17,13 @@ export class ArticleAssembler {
         id: resource.source.id || '',
         name: resource.source.name,
         url: '',
+        author: resource.author,
         urlToLogo: ''
       },
       title: resource.title,
       description: resource.description || '',
       url: resource.url,
+      author: resource.author,
       urlToImage: resource.urlToImage || '',
       publishedAt: resource.publishedAt,
     }

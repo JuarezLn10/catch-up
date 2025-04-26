@@ -3,6 +3,7 @@ import {Source} from './source.entity';
 export class Article {
   title: string;
   description: string;
+  author: string;
   url: string;
   urlToImage: string;
   publishedAt: string;
@@ -11,6 +12,7 @@ export class Article {
   constructor() {
     this.title = '';
     this.description = '';
+    this.author = '';
     this.url = '';
     this.urlToImage = '';
     this.publishedAt = '';
